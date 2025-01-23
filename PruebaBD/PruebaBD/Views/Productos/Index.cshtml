@@ -1,0 +1,37 @@
+﻿@model IEnumerable<PruebaBD.Data.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h1>Productos</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Producto</a>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+        <th>@Html.DisplayNameFor(model => model.Precio)</th>
+        <th>@Html.DisplayNameFor(model => model.FechaCreacion)</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Nombre</td>
+            <td>@item.Precio</td>
+            <td>@(item.FechaCreacion?.ToString("yyyy-MM-dd") ?? "Fecha no disponible")</td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-warning">Editar</a>
+                <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-info">Detalles</a>
+                <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

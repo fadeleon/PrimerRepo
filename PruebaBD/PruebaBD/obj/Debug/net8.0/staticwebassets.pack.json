@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\fadeleon\\RiderProjects\\PruebaBD\\PruebaBD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PruebaBD.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PruebaBD.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\fadeleon\\RiderProjects\\PruebaBD\\PruebaBD\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\fadeleon\\RiderProjects\\PruebaBD\\PruebaBD\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fadeleon\\RiderProjects\\PruebaBD\\PruebaBD\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fadeleon\\RiderProjects\\PruebaBD\\PruebaBD\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PruebaBD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PruebaBD.props",
+      "PackagePath": "build\\PruebaBD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PruebaBD.props",
+      "PackagePath": "buildMultiTargeting\\PruebaBD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PruebaBD.props",
+      "PackagePath": "buildTransitive\\PruebaBD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
